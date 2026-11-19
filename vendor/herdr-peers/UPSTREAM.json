@@ -1,0 +1,240 @@
+{
+  "upstream": "https://github.com/DailybotHQ/herdr-peers",
+  "version": "2.2.1",
+  "commit": "6b9f17d8ebffe54ecde68c3bc7c768032be60e92",
+  "license": "MIT",
+  "modifications": [
+    "SKILL.md renamed UPSTREAM_GUIDE.md to keep a single discoverable skill.",
+    "scripts/herdr_peers.py cmd_skill reads UPSTREAM_GUIDE.md; protocol and transport unchanged."
+  ],
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstream_path": "LICENSE",
+      "upstream_sha256": "9200e368cdeb2b630639ec05936f9e5622b32ae517006f3c452e19051077fc83",
+      "bundled_sha256": "9200e368cdeb2b630639ec05936f9e5622b32ae517006f3c452e19051077fc83"
+    },
+    {
+      "path": "UPSTREAM_GUIDE.md",
+      "upstream_path": "skills/herdr-peers/SKILL.md",
+      "upstream_sha256": "daa2d0d5660b4145ef45b579648f2393876b3ddd7b0595f8d239d742c3afca1b",
+      "bundled_sha256": "daa2d0d5660b4145ef45b579648f2393876b3ddd7b0595f8d239d742c3afca1b"
+    },
+    {
+      "path": "autopilot.md",
+      "upstream_path": "skills/herdr-peers/autopilot.md",
+      "upstream_sha256": "98432c341262f690848d4aa420c3243c3055be0f6aad0c39aa6857c35db3be0f",
+      "bundled_sha256": "98432c341262f690848d4aa420c3243c3055be0f6aad0c39aa6857c35db3be0f"
+    },
+    {
+      "path": "debate.md",
+      "upstream_path": "skills/herdr-peers/debate.md",
+      "upstream_sha256": "6d245289bc64d66f6136bf1b3e932fb543f071eff6ab57ac294e3b4fc41c0389",
+      "bundled_sha256": "6d245289bc64d66f6136bf1b3e932fb543f071eff6ab57ac294e3b4fc41c0389"
+    },
+    {
+      "path": "discipline.md",
+      "upstream_path": "skills/herdr-peers/discipline.md",
+      "upstream_sha256": "f9a7120d0e1d65257a0fc2ade433033709520b2e2aad89f9d0655b50e8041813",
+      "bundled_sha256": "f9a7120d0e1d65257a0fc2ade433033709520b2e2aad89f9d0655b50e8041813"
+    },
+    {
+      "path": "launcher.md",
+      "upstream_path": "skills/herdr-peers/launcher.md",
+      "upstream_sha256": "fdf059e334d6bd0a58ecae0a73463b8d1470979d045c8a7f1577406d398da9f0",
+      "bundled_sha256": "fdf059e334d6bd0a58ecae0a73463b8d1470979d045c8a7f1577406d398da9f0"
+    },
+    {
+      "path": "orchestra.md",
+      "upstream_path": "skills/herdr-peers/orchestra.md",
+      "upstream_sha256": "8e4df7a39557539bbb853abba4b81f3cf29cee6588ae517ef55fcfef5f51da39",
+      "bundled_sha256": "8e4df7a39557539bbb853abba4b81f3cf29cee6588ae517ef55fcfef5f51da39"
+    },
+    {
+      "path": "protocol.md",
+      "upstream_path": "skills/herdr-peers/protocol.md",
+      "upstream_sha256": "7952ec261f1cf171b1e79b46fc8dbcfc319941259685944b11e8347a9fc35003",
+      "bundled_sha256": "7952ec261f1cf171b1e79b46fc8dbcfc319941259685944b11e8347a9fc35003"
+    },
+    {
+      "path": "schemas/fleet-v1.json",
+      "upstream_path": "skills/herdr-peers/schemas/fleet-v1.json",
+      "upstream_sha256": "6ab2f10e13a9c7faeb453031fbdcbf941c6fcd5161014652d7f5deec06462955",
+      "bundled_sha256": "6ab2f10e13a9c7faeb453031fbdcbf941c6fcd5161014652d7f5deec06462955"
+    },
+    {
+      "path": "schemas/plan-event-v1.json",
+      "upstream_path": "skills/herdr-peers/schemas/plan-event-v1.json",
+      "upstream_sha256": "b7e75c5534d344edfeae00eeb2c44c9d9d285c08950d32e82cdddcf9a1a56a66",
+      "bundled_sha256": "b7e75c5534d344edfeae00eeb2c44c9d9d285c08950d32e82cdddcf9a1a56a66"
+    },
+    {
+      "path": "scripts/autopilot.py",
+      "upstream_path": "skills/herdr-peers/scripts/autopilot.py",
+      "upstream_sha256": "2c3c593302409bdcc4e6fdb8efc63be567f4759569280fbedcac593163c7d7f8",
+      "bundled_sha256": "2c3c593302409bdcc4e6fdb8efc63be567f4759569280fbedcac593163c7d7f8"
+    },
+    {
+      "path": "scripts/brain.py",
+      "upstream_path": "skills/herdr-peers/scripts/brain.py",
+      "upstream_sha256": "300a1572090375cb45784b98473e6ebabc5d2a31ef458e9d8868e538c712b3e1",
+      "bundled_sha256": "300a1572090375cb45784b98473e6ebabc5d2a31ef458e9d8868e538c712b3e1"
+    },
+    {
+      "path": "scripts/debate.py",
+      "upstream_path": "skills/herdr-peers/scripts/debate.py",
+      "upstream_sha256": "641d89e735a60db77bd70d9e8bad628e5a0bc3d92d6be5479deaa2dc3cca3d1b",
+      "bundled_sha256": "641d89e735a60db77bd70d9e8bad628e5a0bc3d92d6be5479deaa2dc3cca3d1b"
+    },
+    {
+      "path": "scripts/fleet_report.py",
+      "upstream_path": "skills/herdr-peers/scripts/fleet_report.py",
+      "upstream_sha256": "d5c7529056b13a8940b6b72cb712b17324cc9a05763d4f2776c714d2ddc93abe",
+      "bundled_sha256": "d5c7529056b13a8940b6b72cb712b17324cc9a05763d4f2776c714d2ddc93abe"
+    },
+    {
+      "path": "scripts/fleet_ui.py",
+      "upstream_path": "skills/herdr-peers/scripts/fleet_ui.py",
+      "upstream_sha256": "009f92fd020df60cf1b688d8c4cf3a8ca8d6de66a91803d5b577d848803155a7",
+      "bundled_sha256": "009f92fd020df60cf1b688d8c4cf3a8ca8d6de66a91803d5b577d848803155a7"
+    },
+    {
+      "path": "scripts/herdr-peers",
+      "upstream_path": "skills/herdr-peers/scripts/herdr-peers",
+      "upstream_sha256": "1b235ed13f8448cf74e0a5a43201f5e4cc932a03f6b50cb4566b8f2221fc0ca7",
+      "bundled_sha256": "1b235ed13f8448cf74e0a5a43201f5e4cc932a03f6b50cb4566b8f2221fc0ca7"
+    },
+    {
+      "path": "scripts/herdr_peers.py",
+      "upstream_path": "skills/herdr-peers/scripts/herdr_peers.py",
+      "upstream_sha256": "47159eba84fd3787421e6090fe3d29425758f65068d655f9288150e05a368f74",
+      "bundled_sha256": "b54e553bb112f0ca162ef787d2415408edb076cd35acd63fcf53c06e41a4f0f6"
+    },
+    {
+      "path": "templates/ask.md",
+      "upstream_path": "skills/herdr-peers/templates/ask.md",
+      "upstream_sha256": "08cfde2991fe34f4a7ae9518338396d7160a1ffc30fdae17be9b587f01b573ba",
+      "bundled_sha256": "08cfde2991fe34f4a7ae9518338396d7160a1ffc30fdae17be9b587f01b573ba"
+    },
+    {
+      "path": "templates/debate/DEBATE_BRIEF.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/DEBATE_BRIEF.md",
+      "upstream_sha256": "e3721569950eb1c6aa4b7e30b7e3aec95cb07b2424b2b6beabbd03098a9b623c",
+      "bundled_sha256": "e3721569950eb1c6aa4b7e30b7e3aec95cb07b2424b2b6beabbd03098a9b623c"
+    },
+    {
+      "path": "templates/debate/DECISION.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/DECISION.md",
+      "upstream_sha256": "2595368b1a977e72bd7d712fab608faa422c66fd9c3b243584d80d7ddb47c03f",
+      "bundled_sha256": "2595368b1a977e72bd7d712fab608faa422c66fd9c3b243584d80d7ddb47c03f"
+    },
+    {
+      "path": "templates/debate/FIXLOG.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/FIXLOG.md",
+      "upstream_sha256": "c2b2261abb50a68f0a98e5bdc4c2e0f84ed42fceaabc35eab786075a3b885217",
+      "bundled_sha256": "c2b2261abb50a68f0a98e5bdc4c2e0f84ed42fceaabc35eab786075a3b885217"
+    },
+    {
+      "path": "templates/debate/HANDOFF.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/HANDOFF.md",
+      "upstream_sha256": "35122bcdc3c4f1499716e4ec84888467609cb44ef5ae6c5ea3485b78f9d54ee1",
+      "bundled_sha256": "35122bcdc3c4f1499716e4ec84888467609cb44ef5ae6c5ea3485b78f9d54ee1"
+    },
+    {
+      "path": "templates/debate/HUMAN_NOTE.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/HUMAN_NOTE.md",
+      "upstream_sha256": "5d1684de9da37424a859d439b46bc2c4bbd50901a840c4ddadb730cbca95326a",
+      "bundled_sha256": "5d1684de9da37424a859d439b46bc2c4bbd50901a840c4ddadb730cbca95326a"
+    },
+    {
+      "path": "templates/debate/LEAD_CHECKS.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/LEAD_CHECKS.md",
+      "upstream_sha256": "a60e9efc02c72b2b3c55da6ab8056227e6cdc82e797d1cf58348a5c545747624",
+      "bundled_sha256": "a60e9efc02c72b2b3c55da6ab8056227e6cdc82e797d1cf58348a5c545747624"
+    },
+    {
+      "path": "templates/debate/REPLICATION.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/REPLICATION.md",
+      "upstream_sha256": "314ec79ec23328b02ca2a84a027d034463fb8265ef1d8cc32b0decfb7b33aaa3",
+      "bundled_sha256": "314ec79ec23328b02ca2a84a027d034463fb8265ef1d8cc32b0decfb7b33aaa3"
+    },
+    {
+      "path": "templates/debate/RESEARCH_BRIEF.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/RESEARCH_BRIEF.md",
+      "upstream_sha256": "08f4cc9ecc94da85782b1f76a198f39d3c4a67e8d9d5a39f27fa35fef0eab614",
+      "bundled_sha256": "08f4cc9ecc94da85782b1f76a198f39d3c4a67e8d9d5a39f27fa35fef0eab614"
+    },
+    {
+      "path": "templates/debate/ROUND_BRIEF.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/ROUND_BRIEF.md",
+      "upstream_sha256": "391575b8870dc466efea36f0c10c8186dfd76c32b63677a75a67a034a80ca436",
+      "bundled_sha256": "391575b8870dc466efea36f0c10c8186dfd76c32b63677a75a67a034a80ca436"
+    },
+    {
+      "path": "templates/debate/ROUND_SYNTHESIS.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/ROUND_SYNTHESIS.md",
+      "upstream_sha256": "c26325eb48af2fa4d98a21f4e4cca34ad208b381e1bcaff6a58be36dac38fa2e",
+      "bundled_sha256": "c26325eb48af2fa4d98a21f4e4cca34ad208b381e1bcaff6a58be36dac38fa2e"
+    },
+    {
+      "path": "templates/debate/STATE_OF_THE_ART.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/STATE_OF_THE_ART.md",
+      "upstream_sha256": "1c5ccd486f45d6c2ab2f5120bb72bcd5a3816526b2b052e8634f2514085b724e",
+      "bundled_sha256": "1c5ccd486f45d6c2ab2f5120bb72bcd5a3816526b2b052e8634f2514085b724e"
+    },
+    {
+      "path": "templates/debate/STRESS_TEST.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/STRESS_TEST.md",
+      "upstream_sha256": "12c70bd2a476502f087c8c41fe0850e3e80e2885d1fe7163c34d0cb97d6a9958",
+      "bundled_sha256": "12c70bd2a476502f087c8c41fe0850e3e80e2885d1fe7163c34d0cb97d6a9958"
+    },
+    {
+      "path": "templates/debate/STRESS_TEST_BRIEF.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/STRESS_TEST_BRIEF.md",
+      "upstream_sha256": "2e6fa43c31a24510aa6a2f0d69ec22148041091643f09416b0b764d5ec8a883f",
+      "bundled_sha256": "2e6fa43c31a24510aa6a2f0d69ec22148041091643f09416b0b764d5ec8a883f"
+    },
+    {
+      "path": "templates/debate/TEAM_BRIEF.md",
+      "upstream_path": "skills/herdr-peers/templates/debate/TEAM_BRIEF.md",
+      "upstream_sha256": "14f32f9a6351e394b28927394fbc9d9c323d928b62065ca89a3d60357316f20d",
+      "bundled_sha256": "14f32f9a6351e394b28927394fbc9d9c323d928b62065ca89a3d60357316f20d"
+    },
+    {
+      "path": "templates/debate/ballots.json",
+      "upstream_path": "skills/herdr-peers/templates/debate/ballots.json",
+      "upstream_sha256": "f726d8a077e8d387f1fb732cd45fd233233dffc6c3f44499843d8b1fdd83f5a2",
+      "bundled_sha256": "f726d8a077e8d387f1fb732cd45fd233233dffc6c3f44499843d8b1fdd83f5a2"
+    },
+    {
+      "path": "templates/debate/claims.json",
+      "upstream_path": "skills/herdr-peers/templates/debate/claims.json",
+      "upstream_sha256": "b89fdbf3abe5c642e797db39dad0d6d761b1e679c190aab55d7fc0e99301e74d",
+      "bundled_sha256": "b89fdbf3abe5c642e797db39dad0d6d761b1e679c190aab55d7fc0e99301e74d"
+    },
+    {
+      "path": "templates/delegation-record.json",
+      "upstream_path": "skills/herdr-peers/templates/delegation-record.json",
+      "upstream_sha256": "356c28e0633ff6e5a77598b2c673afbcedec6b3421b06b1e78bb48a504183e56",
+      "bundled_sha256": "356c28e0633ff6e5a77598b2c673afbcedec6b3421b06b1e78bb48a504183e56"
+    },
+    {
+      "path": "templates/grant.md",
+      "upstream_path": "skills/herdr-peers/templates/grant.md",
+      "upstream_sha256": "68c08c33e71da815afc747e7bccb84d810e1763c52ccea884e6bcdfd8c855bf7",
+      "bundled_sha256": "68c08c33e71da815afc747e7bccb84d810e1763c52ccea884e6bcdfd8c855bf7"
+    },
+    {
+      "path": "templates/notice.md",
+      "upstream_path": "skills/herdr-peers/templates/notice.md",
+      "upstream_sha256": "ec687c74e4f8a1d7212a335dde99e05c912c12d2cf3addd504ac999b5895861d",
+      "bundled_sha256": "ec687c74e4f8a1d7212a335dde99e05c912c12d2cf3addd504ac999b5895861d"
+    },
+    {
+      "path": "templates/reply.md",
+      "upstream_path": "skills/herdr-peers/templates/reply.md",
+      "upstream_sha256": "fcb88b49a149ba62a92522ade30086f85e2fdde039e1fe96963786da3ac7083d",
+      "bundled_sha256": "fcb88b49a149ba62a92522ade30086f85e2fdde039e1fe96963786da3ac7083d"
+    }
+  ]
+}

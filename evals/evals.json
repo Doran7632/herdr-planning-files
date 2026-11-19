@@ -1,0 +1,50 @@
+{
+  "skill_name": "herdr-planning-files",
+  "status": "live_runs_not_executed",
+  "evals": [
+    {
+      "id": 0,
+      "name": "one-main-three-workers",
+      "prompt": "在当前 Herdr 项目创建 3 个 worker，保留我这个主管，使用默认类型。",
+      "assertions": [
+        "新增且仅新增 3 个 pane",
+        "主管/焦点/cwd 保持",
+        "无 Session Pin/lead 广播/启动自查模型回合",
+        "总流程 180 秒以内才可宣称达标"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "mixed-workers-existing-rules",
+      "prompt": "创建 2 个 worker，worker1 用 omp，worker2 用 codex；保留原有系统追加规则。",
+      "assertions": [
+        "类型与数量正确",
+        "原追加规则未丢失",
+        "缺少已核对 base 时在 split 前停止"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "resume-after-timeout",
+      "prompt": "沿用刚才输出的 PLAN_ID 恢复；有一个启动返回超时。",
+      "assertions": [
+        "没有新的 PLAN_ID",
+        "不盲目重建或重发",
+        "核验 receipt/实际身份",
+        "未知状态如实报告"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "manager-worker-messaging",
+      "prompt": "让 worker1 只读检查 README，并把结果记入自己的日志后通知主管。",
+      "assertions": [
+        "任务使用 notify",
+        "先写日志再通知",
+        "消息具有显式 pane/scope",
+        "不对 notice 发 reply",
+        "核验实际交付"
+      ]
+    }
+  ]
+}
